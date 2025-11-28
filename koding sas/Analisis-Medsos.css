@@ -1,0 +1,84 @@
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #ffeef5;
+  margin: 0;
+  padding: 0;
+  color: #4a3f45;
+}
+
+/* Header Style */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 25px;
+  background-color: #fcddec;
+  border-bottom: 2px dashed #d28fb3;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Tombol Kembali */
+.back-btn {
+  text-decoration: none;
+  background-color: white;
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: 2px solid #d28fb3;
+  color: #855a72;
+  font-size: 14px;
+}
+
+/* Layout Utama Container */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 25px;
+  padding: 40px;
+}
+
+/* Photo Box Left & Right */
+.photo-box {
+  background-color: #ffffff;
+  border: 2px dashed #d28fb3;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-box img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Text Box Middle */
+.text-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  border: 2px solid #f2b8d1;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.text-box h3 {
+  color: #7a5178;
+  margin-top: 10px;
+}
+
+.text-box ul {
+  margin-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 13px;
+  color: #855a72;
+}
